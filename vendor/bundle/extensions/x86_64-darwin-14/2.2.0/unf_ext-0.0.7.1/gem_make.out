@@ -1,0 +1,12 @@
+/Users/userone/.rvm/rubies/ruby-2.2.1/bin/ruby -r ./siteconf20150514-7337-1bxdcbi.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20150514-7337-1fiasg1
