@@ -15,6 +15,7 @@ gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 gem 'devise'
 gem 'stripe'
+gem 'searchkick'
 
 group :production do
   gem 'pg'
