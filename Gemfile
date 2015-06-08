@@ -16,6 +16,7 @@ gem "figaro"
 gem 'devise'
 gem 'stripe'
 gem 'searchkick'
+gem "braintree"
 
 group :production do
   gem 'pg'
